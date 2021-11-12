@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 1% 0;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #DCDCDC;
+}
+
+.header {
+    width: 98%;
+    margin: 0 1%;
+    color: white;
+    background-color: black;
+}
+
+.navbar-action {
+    display: none;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.navbar {
+    margin: 0 1%;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 2% 1%;
+    margin: 0 .5%;
+}
+
+.navbar ul li a {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: gray
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1% 0;
+}
+
+[class*="col-"] {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 1%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.w-18 {
+    width: 18%;
+}
+
+.mt-1 {
+    margin-top: 1%;
+}
+
+.mt-2 {
+    margin-top: 2%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.blue {
+    width: 100%;
+    padding: 8%;
+    margin-bottom: 7%;
+    background-color: #3E88DD;
+}
+
+.purple {
+    width: 100%;
+    padding: 11%;
+    margin-bottom: 8%;
+    background-color: #8D008C;
+}
+
+.blue:last-of-type,
+.purple:last-of-type {
+    /* margin: 0; */
+}
+
+.footer {
+    width: 98%;
+    padding: 2%;
+    margin: 0 1%;
+    text-align: center;
+    background-color: #DEB887;
+}
+
+@media only screen and (max-width: 900px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    .navbar ul li {
+        padding: 3% 1%;
+    }
+    .blue {
+        padding: 10%;
+    }
+    .purple {
+        padding: 3%;
+        margin-top: 0;
+        margin-bottom: 2.5%;
+    }
+    .footer {
+        margin-top: 3%;
+        padding: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .col-sm-1 {
+        width: 8.33%;
+    }
+    .col-sm-2 {
+        width: 16.66%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33%;
+    }
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    .mt-sm-3 {
+        margin-top: 3%;
+    }
+    .mlr-sm-3 {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .navbar ul li {
+        display: block;
+        text-align: center;
+    }
+    .blue {
+        padding: 4%;
+        margin-bottom: 2%;
+    }
+    header {
+        margin-bottom: 5%;
+    }
+    .navbar-action {
+        color: red;
+        display: block;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .navbar-action:hover+.navbar ul {
+        display: block;
+    }
+}

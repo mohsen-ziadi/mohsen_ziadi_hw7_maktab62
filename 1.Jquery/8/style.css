@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.steps {
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.step {
+    margin-bottom: .5rem;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.step:hover {
+    border-color: orange;
+}
+
+.step div {
+    padding: 1rem;
+}
+
+.step div:first-of-type {
+    border-bottom: 2px solid green;
+}
+
+.step i {
+    color: orange;
+    margin-right: .5rem;
+    transform: rotate(-90deg);
+}
+
+.step .content {
+    display: none;
+    padding: 1rem;
+    color: black;
+    background-color: #ccc;
+}

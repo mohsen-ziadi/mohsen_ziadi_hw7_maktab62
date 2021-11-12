@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background-color: tomato;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav>ul>li {
+    padding: .5rem 10rem .5rem .5rem;
+}
+
+nav ul li span {
+    cursor: pointer;
+}
+
+.has-submenu {
+    position: relative;
+}
+
+.has-submenu ul {
+    width: 100%;
+    display: none;
+    flex-flow: column wrap;
+    position: absolute;
+    top: 100%;
+    background-color: tomato;
+}
+
+.has-submenu ul li {
+    padding: .5rem 1rem;
+}
